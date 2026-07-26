@@ -1,7 +1,24 @@
 aid: estes-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/estes-energy.png
 name: Estes Energy
-description: Estes Energy is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Estes Energy is a US-based manufacturer of advanced battery packs for
+  heavy-duty transport. Its magnesium-alloy Magnus platform (proprietary MgCarbonit
+  thermo-structural body) delivers roughly 225 Wh/kg for rail, marine, aviation and
+  off-highway applications, with chemistry-agnostic (sodium, LFP, nickel) packs manufactured
+  entirely in the United States. Backed by DCVC, Fortescue Ventures, BMW and New System
+  Ventures. A hardware/manufacturing company with no public API, developer portal,
+  SDK or software product surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/estes-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Batteries
+- Manufacturing
+- Hardware
+- Electric Vehicles
+- Clean Energy
+- Transportation
+common:
+- type: Website
+  url: https://www.estes.energy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/estes-energy/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
